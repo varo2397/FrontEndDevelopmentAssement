@@ -1,25 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Form from './components/LoginForm';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="d-flex flex-column vh-100">
+      <div className="container-fluid d-flex App flex-column flex-grow-1 justify-content-center">
+        <div className="d-flex flex-row justify-content-center align-items-center ">
+          <Form />
+        </div>
+      </div>
     </div>
+
   );
 }
 
