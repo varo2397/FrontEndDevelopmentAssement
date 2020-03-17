@@ -2,6 +2,7 @@
 
 ## Requirements
 Node 13+
+npm 6+
 
 ## Installation
 ```bash
